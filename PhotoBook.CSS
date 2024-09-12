@@ -1,13 +1,14 @@
-body {background-color: #f59e67;}
-
-h1 {
-    text-align: center; 
-    margin-bottom: -20px;
+/* Creates a white border around the page */
+html{
+    border-style: solid; 
+    height: 95%; 
+    width: 95%;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #f59e67;
 }
 
-h3{text-align: center;}
-
-p{text-align: center; margin-top: -15px;}
+h1 {text-align: center; }
 
 /* images are rounded */
 img{
