@@ -8,7 +8,8 @@ html{
     background-color: #f59e67;
 }
 
-h1 {text-align: center; }
+.Title {text-align: center; animation-name: fly-in;
+    animation-duration: 2s;}
 
 /* images are rounded */
 img{
@@ -27,6 +28,15 @@ img:hover {
     justify-content: center;
     display: flex;
     gap: 200px;
+    animation-name: fly-in;
+    animation-duration: 2s;
+}
+
+
+@keyframes fly-in {
+    from { transform: translateY(-300%)}
+    to { transform: translateY(0%)}
+    
 }
 
 /* Keeps the footer at the bottom */
