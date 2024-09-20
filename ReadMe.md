@@ -1,11 +1,11 @@
-Use:
-This webpage is used to show off my mentors
-you can click on their photos to learn more about them
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Purpose:
-This webpage serves as a demonstration of my ability to;
--Insert Images
--Format Images
--Make Images reference a link
--animate Images
+This webpage is a collection of my mentors, as well as some resources I found useful.
+
+
+## Contact
+[LinkedIn](www.linkedin.com/in/jamir-ong-4823912b4)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
