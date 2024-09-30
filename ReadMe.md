@@ -1,4 +1,3 @@
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This Photo Book is designed to display Images. 
