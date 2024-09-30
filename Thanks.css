@@ -1,0 +1,16 @@
+html{
+    border-style: solid; 
+    height: 95%; 
+    width: 95%;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #ecd9b9;
+}
+
+body{
+    margin-top: 15%;
+    text-align: center;
+    justify-content: center;
+    color: black;
+
+}
