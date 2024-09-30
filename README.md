@@ -1,11 +1,22 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This webpage is a collection of my mentors, as well as some resources I found useful.
+This Photo Book is designed to display Images. 
+
+## Use
+
+This Webpage allows you to interact with the selected images.
+
+interactions include:
+
+- clicking to follow link
+- liking, and disliking
+- hiding images
+- Sharing images
+
 
 
 ## Contact
 [LinkedIn](www.linkedin.com/in/jamir-ong-4823912b4)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
