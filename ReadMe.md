@@ -12,7 +12,8 @@ interactions include:
 - clicking to follow link
 - liking, and disliking
 - hiding images
-- Sharing images
+- copying the link of images
+- submitting Feedback, General Comments, and Suggestions
 
 
 
