@@ -5,23 +5,68 @@ html{
     width: 95%;
     margin: 30px;
     color: rgb(255, 255, 255);
-    background-color: #f59e67;
+    background-color: #ecd9b9;
 }
 
+/* Header */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px black;
+}
+
+/* Allows the title to fly in using keyframe animation */
 .Title {text-align: center; animation-name: fly-in;
     animation-duration: 2s;}
 
 /* images are rounded */
 img{
-    width: 200px;
-    border-radius: 15px;
+    width: 250px;
+    border-radius: 5px;
     transition: 50ms;
+
 }
 
 /* animation for hovering over images */
 img:hover {
-    width: 250px;
+    width: 300px;
 }
+
+/* Creates frames for the images */
+.frame {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-color: white;
+    border: white 5px solid;
+    filter: drop-shadow(10px 10px 4px #474747);
+}
+
+/* Button styles */
+button{
+    cursor: pointer;
+    outline: 0;
+    color: #AAA;
+  
+}
+  
+.btn:focus {
+    outline: none;
+}
+
+/* like Button coloring */
+.green{
+    color: green;
+}
+
+/* dislike button coloring */
+.red{
+    color: red;
+}
+
+/* text coloring for submission form */
+.subForm{
+    color: black;
+}
+
 
 /* gap allows spacing between images */
 .centering{
@@ -30,13 +75,6 @@ img:hover {
     gap: 200px;
     animation-name: fly-in;
     animation-duration: 2s;
-}
-
-
-@keyframes fly-in {
-    from { transform: translateY(-300%)}
-    to { transform: translateY(0%)}
-    
 }
 
 /* Keeps the footer at the bottom */

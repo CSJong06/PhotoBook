@@ -2,7 +2,8 @@
 
 <html>
     <head>
-        <link href="PhotoBook.CSS" rel="stylesheet" type="text/css"
+        <title>Studio Ghibli Frames</title>
+        <link href="PhotoBook.CSS" rel="stylesheet" type="text/css">
     </head>
 
     <!-- body -->
@@ -11,27 +12,66 @@
         <!-- header -->
     <header>
         <div class="Title">
-            <h1>My Mentors</h1>
+            <h1>Studio Ghibli Frames</h1>
         </div>
         <br>
     </header>
         <!-- references my three photos -->
         <main>
-            <div class="centering" id="photos"> <!--The Class allows the images to be spaced properly-->
+            <div class="centering"> <!--The Class allows the images to be spaced properly-->
                 
-                <a href="https://www.linkedin.com/in/dannyelleaustin/"><img alt="Dannyelle" src="https://i0.wp.com/launchpadphilly.org/wp-content/uploads/2022/07/dannyelle-austin-headshot-square-scaled.jpg?fit=1024%2C1024&ssl=1"></a> 
-    
-                <a href="https://www.linkedin.com/in/robs-resume/"><img alt="Nick" src="https://i0.wp.com/launchpadphilly.org/wp-content/uploads/2023/12/IMG_1347-scaled-e1702664771622.jpg?fit=966%2C1024&ssl=1"></a>
+                <dic class="frame" id="frame">
+                    <a href="https://myanimelist.net/anime/512/Majo_no_Takkyuubin?q=kiki%27s&cat=anime"><img id="img" alt="Kiki's Delivery Service" value="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/12/Kikis-Delivery-Service.jpg"src="https://static1.srcdn.com/wordpress/wp-content/uploads/2021/12/Kikis-Delivery-Service.jpg"></a> 
+                     <div class="Buttons">
+                        <button class="btn" id="green"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button> <!-- creates a like button -->
+                        <button class="btn" id="red"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button> <!-- creates a dislike button -->
+                        <button id="hBtn">Hide</button> <!-- creates a hide button -->
+                        <button onclick="share1()">Share</button> <!-- creates a share button -->
+                     </div> 
                     
-                <a href="https://www.linkedin.com/in/nick-imparato/"><img alt="Rob" src="https://i0.wp.com/launchpadphilly.org/wp-content/uploads/2022/07/nick-imparato-headshot-square-scaled.jpg?fit=1024%2C1024&ssl=1"></a>
-                
+                </dic>
+
+                <dic class="frame" id="frame">
+                    <a href="https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi?q=spir&cat=anime"><img id='img2' alt="Spirited Away" src="https://www.thisiscolossal.com/wp-content/uploads/2020/09/ghibli-3.jpg"></a>
+                    <div class="Buttons">
+                        <button class="btn" id="green2"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button> <!-- creates a like button -->
+                        <button class="btn" id="red2"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button> <!-- creates a dislike button -->
+                        <button id="hBtn2">Hide</button> <!-- creates a hide button -->
+                        <button onclick="share2()">Share</button> <!-- creates a share button -->
+                    </div> 
+                </dic>
+
+                <dic class="frame" id="frame">
+                    <a href="https://myanimelist.net/anime/431/Howl_no_Ugoku_Shiro?q=howls&cat=anime"><img id='img3'alt="Howl's Moving Castle" src="https://asiapacificarts.org/wp-content/uploads/2020/09/howlscastle02.jpg"></a>
+                    <div class="Buttons">
+                        <button class="btn" id="green3"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></button> <!-- creates a like button -->
+                        <button class="btn" id="red3"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i></button> <!-- creates a dislike button -->
+                        <button id="hBtn3">Hide</button> <!-- creates a hide button -->
+                        <button onclick="share3()">Share</button> <!-- creates a share button -->
+                    </div> 
+                </dic>
+
             </div>
-    
+
+            <script src="https://use.fontawesome.com/fe459689b4.js"></script> <!-- Accesses icons  -->
+            <script src="PhotoBook.js"></script> <!-- Js reference -->
         </main>
-    
+        
+        
+
         <!--Footer-->
         <footer>
-            <a href="#">Temp Link</a>
+            <a href="#">Temp Socials Link</a>
+            <!-- submission form -->
+            <div class="subForm">
+                <select>
+                    <option>FeedBack</option>
+                    <option>Suggestions</option>
+                    <option>Comments</option>
+                </select>
+                <input></input>
+                <button class="subBtn"><a href="Thanks.html">Submit</a></button> <!-- Thank you page -->
+            </div>
         </footer>
     </body>
 
