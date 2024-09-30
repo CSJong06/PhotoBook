@@ -9,10 +9,12 @@ This Webpage allows you to interact with the selected images.
 
 interactions include:
 
-- clicking to follow link
-- liking, and disliking
-- hiding images
-- Sharing images
+- Clicking to follow link
+- Liking, and Disliking
+- Hiding images
+- Copying image links
+- Leaving Feedback, comments, and suggestions
+
 
 
 
