@@ -61,8 +61,21 @@ button{
 /* text coloring for submission form */
 .subForm{
     color: black;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
 }
 
+.choices button {
+    display: block;
+    width: 125px;
+    color: black;
+}
+
+.dBtn{
+    color: black;
+    width: 125px;
+}
 
 /* gap allows spacing between images */
 .centering{

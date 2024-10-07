@@ -50,7 +50,26 @@
                         <button onclick="share3()">Share</button> <!-- creates a share button -->
                     </div> 
                 </dic>
+            </div>
 
+            <!-- submission form -->
+            <div class="subForm">
+                
+                <div class="drpDown"> <!--Dropdown menu-->
+                    <button onclick="show()" id="dropBtn" class="dBtn">FeedBack options</button> <!--This button toggles whether the choices are shown or not-->
+                    <div id="options" class="choices">
+                        <button onclick="hide()">General</button> <!--the hide function hides the menu when clicked-->
+                        <button onclick="hide()">Suggestions</button>
+                        <button onclick="hide()">Comments</button>
+                    </div>
+                </div>
+
+                <div>
+                    <input></input>
+                </div>
+                <div>
+                    <button class="subBtn"><a href="Thanks.html">Submit</a></button> <!-- Thank you page -->
+                </div>    
             </div>
 
             <script src="https://use.fontawesome.com/fe459689b4.js"></script> <!-- Accesses icons  -->
@@ -62,16 +81,6 @@
         <!--Footer-->
         <footer>
             <a href="#">Temp Socials Link</a>
-            <!-- submission form -->
-            <div class="subForm">
-                <select>
-                    <option>FeedBack</option>
-                    <option>Suggestions</option>
-                    <option>Comments</option>
-                </select>
-                <input></input>
-                <button class="subBtn"><a href="Thanks.html">Submit</a></button> <!-- Thank you page -->
-            </div>
         </footer>
     </body>
 

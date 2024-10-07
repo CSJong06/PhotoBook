@@ -1,3 +1,20 @@
+let options = document.getElementById('options');
+
+options.style.display = ("none");
+function show(){ //this function changes the display of the choices
+  if (options.style.display === "none") {
+      options.style.display = "block";
+  } 
+  else {
+    options.style.display = "none";
+  }
+}
+
+function hide(){
+  options.style.display = "none";
+}
+
+
 // grabs the like and dislike button based on id
 var btn1 = document.querySelector('#green');
 var btn2 = document.querySelector('#red');
